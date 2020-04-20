@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Memory Utilize</title>
+</head>
+<body>
+	<div><a href="MXBeansServlet">Show Memory</a></div>
+	<div><a href="MemoryUtilizeServlet?size=2048&num=2048">Allocate permanently 2048 arrays of 2048 bytes size</a></div>
+	<div><a href="MemoryUtilizeServlet?size=20480&num=2048">Allocate permanently 2048 arrays of 20480 bytes size</a></div>
+	<div><a href="MemoryUtilizeServlet?size=20480&num=20480">Allocate permanently 20480 arrays of 20480 bytes size</a></div>
+	<div><a href="MemoryUtilizeServlet?clear">Free memory</a></div>
+	<hr/>
+	<div><a href="MemoryUtilizeServlet?size=2048&num=2048&lifespan=300">Allocate 2048 arrays of 2048 bytes size for 300s</a></div>
+	<div><a href="MemoryUtilizeServlet?size=20480&num=2048&lifespan=60">Allocate 2048 arrays of 20480 bytes size for 60s</a></div>
+	<div><a href="MemoryUtilizeServlet?size=20480&num=20480&lifespan=10">Allocate 20480 arrays of 20480 bytes size for 10s</a></div>
+
+</body>
+</html>
